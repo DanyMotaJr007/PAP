@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Futebol Masters - Seu Portal de Futebol</title>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">⚽ Futebol Masters</div>
+            <nav class="navbar">
+                <ul class="nav-menu">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#jogos">Jogos</a></li>
+                    <li><a href="#times">Times</a></li>
+                    <li><a href="#ranking">Ranking</a></li>
+                    <li><a href="#noticias">Notícias</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Banner Principal -->
+    <section class="banner" id="home">
+        <div class="banner-content">
+            <h1>Bem-vindo ao Futebol Masters</h1>
+            <p>Acompanhe os melhores jogos, notícias e estatísticas do futebol</p>
+            <button class="btn btn-primary">Começar a Explorar</button>
+        </div>
+    </section>
+
+    <!-- Próximos Jogos -->
+    <section class="jogos" id="jogos">
+        <div class="container">
+            <h2>⏰ Próximos Jogos</h2>
+            <div class="jogos-grid">
+                <div class="jogo-card">
+                    <div class="time-home">Flamengo</div>
+                    <div class="score">VS</div>
+                    <div class="time-away">Palmeiras</div>
+                    <p class="data-jogo">16/04/2026 - 19:00</p>
+                </div>
+                <div class="jogo-card">
+                    <div class="time-home">São Paulo</div>
+                    <div class="score">VS</div>
+                    <div class="time-away">Corinthians</div>
+                    <p class="data-jogo">17/04/2026 - 20:00</p>
+                </div>
+                <div class="jogo-card">
+                    <div class="time-home">Botafogo</div>
+                    <div class="score">VS</div>
+                    <div class="time-away">Vasco</div>
+                    <p class="data-jogo">18/04/2026 - 18:30</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Times -->
+    <section class="times" id="times">
+        <div class="container">
+            <h2>🏆 Times</h2>
+            <div class="times-grid">
+                <div class="time-card">
+                    <div class="escudo">🔴</div>
+                    <h3>Flamengo</h3>
+                    <p>Jogos: 15</p>
+                    <p>Vitórias: 10</p>
+                </div>
+                <div class="time-card">
+                    <div class="escudo">🟢</div>
+                    <h3>Palmeiras</h3>
+                    <p>Jogos: 15</p>
+                    <p>Vitórias: 12</p>
+                </div>
+                <div class="time-card">
+                    <div class="escudo">⚪</div>
+                    <h3>São Paulo</h3>
+                    <p>Jogos: 15</p>
+                    <p>Vitórias: 9</p>
+                </div>
+                <div class="time-card">
+                    <div class="escudo">🔵</div>
+                    <h3>Corinthians</h3>
+                    <p>Jogos: 15</p>
+                    <p>Vitórias: 8</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ranking -->
+    <section class="ranking" id="ranking">
+        <div class="container">
+            <h2>📊 Classificação</h2>
+            <table class="tabela-ranking">
+                <thead>
+                    <tr>
+                        <th>Posição</th>
+                        <th>Time</th>
+                        <th>Pts</th>
+                        <th>J</th>
+                        <th>V</th>
+                        <th>E</th>
+                        <th>D</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1º</td>
+                        <td>Palmeiras</td>
+                        <td>39</td>
+                        <td>15</td>
+                        <td>12</td>
+                        <td>3</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>2º</td>
+                        <td>Flamengo</td>
+                        <td>36</td>
+                        <td>15</td>
+                        <td>10</td>
+                        <td>6</td>
+                        <td>-1</td>
+                    </tr>
+                    <tr>
+                        <td>3º</td>
+                        <td>São Paulo</td>
+                        <td>30</td>
+                        <td>15</td>
+                        <td>9</td>
+                        <td>3</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>4º</td>
+                        <td>Corinthians</td>
+                        <td>27</td>
+                        <td>15</td>
+                        <td>8</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Notícias -->
+    <section class="noticias" id="noticias">
+        <div class="container">
+            <h2>📰 Últimas Notícias</h2>
+            <div class="noticias-grid">
+                <article class="noticia-card">
+                    <div class="noticia-img">📸</div>
+                    <h3>Palmeiras vence clássico</h3>
+                    <p>Palmeiras conquistou uma importante vitória no clássico contra Corinthians...</p>
+                    <a href="#" class="leia-mais">Leia Mais →</a>
+                </article>
+                <article class="noticia-card">
+                    <div class="noticia-img">📸</div>
+                    <h3>Flamengo estreia novo atacante</h3>
+                    <p>Novo reforço do Flamengo faz estreia espetacular no campeonato...</p>
+                    <a href="#" class="leia-mais">Leia Mais →</a>
+                </article>
+                <article class="noticia-card">
+                    <div class="noticia-img">📸</div>
+                    <h3>São Paulo prepara jogadores</h3>
+                    <p>Time tricolor realiza treinos intensos na preparação para próxima rodada...</p>
+                    <a href="#" class="leia-mais">Leia Mais →</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Futebol Masters. Todos os direitos reservados.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
